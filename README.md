@@ -38,6 +38,16 @@ The project relies on an hourly dataset of wind and power production recorded at
 
 ---
 
+## project03_46W38 Structure 
+
+├── main.py                # entry point
+├── load_data.py           # reading datasets
+├── preprocessing.py       # cleaning and feature engineering
+├── training.py            # training and evaluation
+├── predicting.py          # loading model and predicting
+
+---
+
 ## Pipeline Diagram (Mermaid)
 
 ```mermaid
@@ -76,3 +86,5 @@ flowchart TB
     class J endColor;
 
     A --> B --> C --> D --> E --> F --> EVAL --> J
+```
+
